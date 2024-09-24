@@ -1,64 +1,57 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# 烘焙坊網站
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+ - 烘焙坊購物網站
+ - 提供店家上架，新增、修改、刪除商品，管理訂單
+ - 顧客瀏覽商品，新增、修改、刪除購物車商品，查看歷史訂單
 
-## About Laravel
+## 資料庫關聯圖
+![bakery_1](https://github.com/user-attachments/assets/8432544a-2728-408c-8d0d-fb3a51b16405)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# 網站畫面
+## 實際操作影片
+https://youtu.be/TLqQxdGjz7M  
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 首頁  
+顯示商店基本介紹  
 
-## Learning Laravel
+![2024-09-22 01 38 28](https://github.com/user-attachments/assets/e2d31153-3c2b-45b6-acf0-bef2dca47baa)
+![2024-09-22 01 38 50](https://github.com/user-attachments/assets/2f1d73a1-4049-4eff-9466-51bd7efa7ca8)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 聯絡我們 
+店家聯絡資訊。嵌入Google地圖  
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![2024-09-22 01 39 05](https://github.com/user-attachments/assets/27ce1a4d-4db7-4550-ac52-85b0f43bdb61)
 
-## Laravel Sponsors
+## 登入 註冊
+![2024-09-22 01 39 20](https://github.com/user-attachments/assets/4f357421-ff5a-4028-8c44-c9a9e1f9bbcb)
+![2024-09-22 01 39 26](https://github.com/user-attachments/assets/5bc06f7d-6085-480c-b615-11859d084dea)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 產品目錄
+可依照商品種類、價格排序  
+點擊商品圖片左下角購物袋可將商品加入購物車  
 
-### Premium Partners
+![2024-09-22 01 39 42](https://github.com/user-attachments/assets/9a80e675-8440-4610-92f5-82f7e804b3db)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## 購物車
+可在此頁面修改商品數量或刪除商品  
 
-## Contributing
+![2024-09-22 01 40 24](https://github.com/user-attachments/assets/ec5ecdfe-3508-46bb-b27f-f1bee6c6f31d)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 會員中心
+可查看當前登入帳號，購買紀錄  
 
-## Code of Conduct
+![2024-09-25 03 12 37](https://github.com/user-attachments/assets/5ead3a9c-7edd-41a8-a700-bacdfaf44474)
+![2024-09-25 03 12 49](https://github.com/user-attachments/assets/689c7a03-3b14-4772-9900-9a0693be8363)  
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 管理商品
+管理員頁面，可新增、修改、刪除商品  
 
-## Security Vulnerabilities
+![2024-09-22 01 41 52](https://github.com/user-attachments/assets/7017c6c4-ca9f-43da-9552-54b19b4cd9cf)
+![2024-09-22 01 42 03](https://github.com/user-attachments/assets/9ef9271f-71ea-4d16-a0d2-49585019e683)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 管理中心
+管理員頁面，可查看目前註冊會員、訂單，修改訂單狀態  
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![2024-09-22 01 42 14](https://github.com/user-attachments/assets/21b2947e-09c3-4077-a0b2-5be3a031e8ca)
+![2024-09-22 01 42 43](https://github.com/user-attachments/assets/08858729-48dc-4f61-92c1-b01bf7da97d8)
